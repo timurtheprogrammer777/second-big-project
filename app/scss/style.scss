@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: yellow;
+    display: block;
+}
+
+
+a{
+    padding: 0;
+    li{
+        margin: 0;
+    }
+}
+
+ul{
+    padding: auto;
+    li{
+        margin-top: 0;
+    }
+}
+
+.box{
+    margin: 0;
+}
+
+.pimp{
+    max-width: inherit;
+}
+.paa{
+    margin-top: 0px;
+    padding-left: 10px;
+    display: flex;
+}
