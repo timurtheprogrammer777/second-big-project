@@ -1,6 +1,8 @@
 @import '_vars';
 @import '_global';
 
+
+// header__start
 header{
     background-color: #eef1f3;
 }
@@ -113,6 +115,11 @@ header{
     }
 }
 
+//header__end
+
+
+//product__start
+
 
 .product{
     height: 730px;
@@ -214,6 +221,11 @@ header{
         }
     }
 }
+//product__end
+
+
+
+//slider__start
 
 .slider{
     background-color: #eff1f5;
@@ -287,6 +299,36 @@ header{
         }
         .author{
             display: flex;
+            align-items: center;
+            div + div{
+                margin-left: 10px;
+            }
+        }
+        .slider__product{
+            color: blue;
+            display: flex;
+            img{
+                margin-right: 5px;
+            }
+        }
+        .cart{
+            display: flex;
+            a{
+                margin-left: 5px;
+                
+            }
+            img{
+                height: 17px;
+            }
+        }
+        .likes{
+            display: flex;
+            img{
+                height: 17px;
+            }
+            a{
+                margin-left: 5px;
+            }
         }
         .slider__dow-info{
             display: flex;
@@ -330,3 +372,164 @@ header{
 
     }
 }
+
+//slider__end
+
+//shop__start
+
+
+
+
+.shop{
+    // height: 1730px;
+    padding: 120px 0;
+    background-color: #f6f7fb;
+}
+.shop__title{    
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);  
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: #fff;
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+.shop__dow-info{
+    display: flex;
+}
+
+// .shop__inner-item{
+//     width: 360px;
+//     height: 530px;
+//     .shop__inner-container{
+//         padding: 0 30px;
+//     }
+//     .item__top-content{
+//         background-color: #216cd7;
+//         height: 330px;
+//         .button{
+//             display: flex;
+//             align-items: center;
+//         }
+//     }
+//     .item__down-content{
+//         background-color: #fff;
+//         .inner-container{
+//             padding: 0 30px;
+//         }
+//         .slider__product{
+//             color: blue;
+//             display: flex;
+//             img{
+//                 margin-right: 5px;
+//             }
+//         .author{
+//             display: flex;
+//             align-items: center;
+//             div + div{
+//                 margin-left: 5px;
+//             }
+//         }
+        
+    
+// }
+// .shop__dow-info{
+//     display: flex ;
+// }
+.shop__product{
+    color: blue;
+    display: flex;
+}
+.shop__dow-info{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ececec;
+    button{
+        padding: 8px 16px;
+        background-color: #0674ec;
+        color: #fff;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    div{
+        margin-left: 10px;
+    }
+}
+.author{
+    display: flex;
+}
+.shop__inner-item{
+        margin-top: 50px;
+        width: 360px;
+        height: 550px;
+        .item__top-content{
+            background-color: #2b68d3;
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        button + button{
+            margin-left: 10px;
+        }
+        button{
+            border: 1px solid #fff;
+            color: white;
+            padding: 12px 30px 12px 30px;
+            background-color: #186dda;
+            border-radius: 50px;      
+            cursor: pointer;
+            transition: all .7s;
+        }
+        button:hover{
+            // margin-right: 50px;
+            color: blue;
+            padding: 12px 30px 12px 30px;
+            background-color: #fff;
+            border-radius: 50px;
+            border:none;
+            cursor: pointer;
+        }
+    }       
+        .item__down-content{
+            margin-top: -17px;
+            background-color: #ffffff; 
+            height:  230px;
+           .author{
+               display: flex;
+               align-items: center;
+               line-height: 10px;
+               div + div{
+                   margin-left: 10px;
+               }
+               .shop__product{
+                   margin-left: 15px;
+                   display: flex;
+                   align-items: center;
+                   img{
+                       margin-right: 5px;
+                   }
+               }
+           }
+        }
+}
+.inner-container{
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+//shop__end
