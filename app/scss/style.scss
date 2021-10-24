@@ -385,7 +385,13 @@ header{
     padding: 120px 0;
     background-color: #f6f7fb;
 }
-.shop__title{    
+.shop__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop__title{   
+    display: flex;
+    justify-content: space-between; 
     box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);  
     padding-left: 25px;
     display: flex;
@@ -461,13 +467,40 @@ header{
         margin-left: 10px;
     }
 }
+.shop__tags{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);  
+    padding-left: 25px;
+    height: 110px;
+    width: 100%;
+    background-color: #fff;
+    a{
+        background-color: #f1f3f6;
+        color: #868c96;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 7px 12px;
+        border-radius: 20px;
+        transition: all .7s;
+    }
+    a:hover{
+        background-color: #0674ec;
+        color: #fff;
+    }
+    
+}
 .author{
     display: flex;
 }
 .shop__inner-item{
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
         margin-top: 50px;
         width: 360px;
-        height: 550px;
+        height: 450px;
+        margin-left: 20px;
         .item__top-content{
             background-color: #2b68d3;
             height: 220px;
@@ -500,6 +533,9 @@ header{
             margin-top: -17px;
             background-color: #ffffff; 
             height:  230px;
+            h3{
+                padding-top: 10px;
+            }
            .author{
                display: flex;
                align-items: center;
@@ -522,6 +558,26 @@ header{
     padding: 0 20px;
 }
 
+.shop__btn-new-products{
+    width: 200px;
+    margin: 0 auto;
+    a{ 
+    border: 1px solid #fff;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    background-color: #186dda;
+    border-radius: 50px;      
+    cursor: pointer;
+    transition: all .7s;
+    margin-top: 60px;
+    }
+    a:hover{
+    color: blue;
+    padding: 12px 30px 12px 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer}
+}
 
 
 
@@ -533,3 +589,4 @@ header{
 
 
 //shop__end
+
