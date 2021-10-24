@@ -579,13 +579,120 @@ header{
     cursor: pointer}
 }
 
+//shop__end
 
 
+//slider__two-start
+.slider-two{
+    // display: flex;
+    // justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #eff1f5;
+     .slide-two__inner-item{
+        
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+        margin-top: 50px;
+        width: 400px;
+        height: 450px;
+        // margin-left:  20px;
+        padding: 0 10px;
+        .slide-two__top-content{
+            background-color: #2b68d3;
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button + button{
+            margin-left: 10px;
+        }
+        button{
+            border: 1px solid #fff;
+            color: white;
+            padding: 10px 20px 10px 20px;
+            background-color: #186dda;
+            border-radius: 50px;      
+            cursor: pointer;
+            transition: all .7s;
+        }
+        button:hover{
+            // margin-right: 50px;
+            color: blue;
+            padding: 10px 20px 10px 20px;
+            background-color: #fff;
+            border-radius: 50px;
+           
+            cursor: pointer;
+        }
+    }
+    .slide-two__down-content{
+            margin-top: -17px;
+            background-color: #ffffff; 
+            height:  230px;
+            .shop__dow-info{
+                margin-top: -10px;
+                .likes{
+                    display: flex;
+                    img{
+                        align-items: center;
+                        margin-right: 10px;
+                    }
+                }
+                .cart{
+                    display: flex;
+                    img{
+                        align-items: center;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            h3{
+                padding-top: 10px;
+            }
+           .author{
+               display: flex;
+               align-items: center;
+               line-height: 10px;
+               div + div{
+                   margin-left: 10px;
+               }
+               .shop__product{
+                   margin-left: 15px;
+                   display: flex;
+                   align-items: center;
+                   img{
+                       margin-right: 5px;
+                   }
+               }
+           }
+        }
+ 
+       
+     
+}
+
+.slider-two__title{
+    display: flex;
+    justify-content: space-between; 
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);  
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-color: #fff;
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
 
 
-
-
-
+.slider-two-inner{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 //shop__end
