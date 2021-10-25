@@ -813,6 +813,9 @@ header{
 }
 .become__inner{
     display: flex;
+    h3{
+        font-size: 36px;
+    }
     .become__photo{
         margin-top: 100px;
         text-align: center;
@@ -830,19 +833,20 @@ header{
         margin-left: 10px;
     }
     button{
+        
         border: 1px solid #fff;
-        color: white;
+        color: #186dda;
         padding: 12px 30px 12px 30px;
-        background-color: #186dda;
+        background-color: $white;
         border-radius: 50px;      
         cursor: pointer;
         transition: all .7s;
     }
     button:hover{
         // margin-right: 50px;
-        color: blue;
+        color: $white;
         padding: 12px 30px 12px 30px;
-        background-color: #fff;
+        background-color: #186dda;
         border-radius: 50px;
         border:none;
         cursor: pointer;
@@ -867,7 +871,9 @@ header{
     background-size: cover;
     
 }
-
+.become__btn{
+    text-align: center;
+}
 
 
 //become__end
