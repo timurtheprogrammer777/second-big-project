@@ -697,3 +697,177 @@ header{
 
 //shop__end
 
+
+//statistics__start
+
+.statistics{
+    background-color: #212225;
+    height: 350px;
+}
+
+.statistics__inner{
+    display: flex;
+    justify-content: space-between;
+
+
+    .statistics__inner-item{
+        text-align: center;
+        margin-top: 90px;
+        
+        width: 150px;
+        .statistics-photo{
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+            
+            height: 40px;
+            width: 40px;
+        }
+        span{
+            display: block;
+            color: #feb71d;
+            font-size: 30px;
+            margin-top: 35px;
+            margin-bottom: -10px;
+        }
+        p{
+            font-size: 18px;
+            color: #fff;
+        }
+        .cloud-discr{
+            color: #58c9e9;
+        }
+        .smile-discr{
+            color: #77de51;
+        }
+        .user-discr{
+            color: #ff6a6d;
+        }
+    }
+}
+
+
+
+//statistics__end
+
+
+//martplace__start
+
+.martplace{
+    background-color: $white;
+}
+
+.martplace__title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    span{
+        color: $blue;
+    }
+}
+.martpace__title-discr{
+    text-align: center;
+    width: 680px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.martplace__inner-item{
+    margin-right: 25px;
+    width: 360px;
+    height: 370px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+    .martplace__number{
+        font-size: 48px;
+        color: #dee7fe;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .martplace__photo{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        line-height: 40px;
+    }
+}
+.martplace__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+//martplace__end
+
+//become__start
+.become{
+    height: 560px;
+    color: $white;
+}
+.become__inner{
+    display: flex;
+    .become__photo{
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding: 0 100px;
+        margin-bottom: 50px;
+    }
+    button + button{
+        margin-left: 10px;
+    }
+    button{
+        border: 1px solid #fff;
+        color: white;
+        padding: 12px 30px 12px 30px;
+        background-color: #186dda;
+        border-radius: 50px;      
+        cursor: pointer;
+        transition: all .7s;
+    }
+    button:hover{
+        // margin-right: 50px;
+        color: blue;
+        padding: 12px 30px 12px 30px;
+        background-color: #fff;
+        border-radius: 50px;
+        border:none;
+        cursor: pointer;
+    }
+    
+}
+.become__left-content{
+    background-image: url(../img/BG-become.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+.become__right-content{
+    background-image: url(../img/BG-become2.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+//become__end
