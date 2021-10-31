@@ -18,4 +18,7 @@ $('.slider__inner').slick({
     arrows:false
     });
 
+
+var mixer = mixitup('.shop__inner');
+
 });

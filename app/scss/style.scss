@@ -477,7 +477,8 @@ header{
     height: 110px;
     width: 100%;
     background-color: #fff;
-    a{
+    
+    button{
         background-color: #f1f3f6;
         color: #868c96;
         font-size: 15px;
@@ -485,8 +486,10 @@ header{
         padding: 7px 12px;
         border-radius: 20px;
         transition: all .7s;
+        border: none;
+        cursor: pointer;
     }
-    a:hover{
+    button:hover{
         background-color: #0674ec;
         color: #fff;
     }
@@ -561,7 +564,7 @@ header{
 .shop__btn-new-products{
     width: 200px;
     margin: 0 auto;
-    a{ 
+    button{ 
     border: 1px solid #fff;
     color: white;
     padding: 12px 30px 12px 30px;
@@ -571,7 +574,7 @@ header{
     transition: all .7s;
     margin-top: 60px;
     }
-    a:hover{
+    button:hover{
     color: blue;
     padding: 12px 30px 12px 30px;
     background-color: #fff;
