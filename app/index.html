@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -57,10 +60,10 @@
                         </nav>
                     </div>
                     <div class="header__input">
-                        <!-- <form action=""> -->
-                        <input placeholder="Search product here..." type="text">
-                        <button class="input__picture"> <img src="img/magnifier.png" alt=""></button>
-                        <!-- </form> -->
+                        <form action="">
+                            <input placeholder="Search product here..." type="text">
+                            <button class="input__picture"> <img src="img/magnifier.png" alt=""></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -78,10 +81,11 @@
                 </div>
                 <div class="product__input">
                     <div class="input-btn">
-                        <input type="text">
+                        <input type="text" placeholder="Search product here...">
                         <button class="categories">All Categories</button>
+                        <button class="search-btn">Search Now</button>
                     </div>
-                    <button>Search Now</button>
+                    <!-- <button class="search-btn" >Search Now</button> -->
                 </div>
             </div>
         </div>
@@ -519,7 +523,7 @@
 
             </div>
             <div class="shop__btn-new-products">
-                <button type="button" data-filter=".category-new" >All New Products</button>
+                <button type="button" data-filter=".category-new">All New Products</button>
             </div>
         </div>
     </section>
@@ -1090,8 +1094,10 @@
                     <p>Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
                     </p>
                     <div class="footer-input">
-                        <input type="text" placeholder="Enter email">
-                        <button>Submit</button>
+                        <form action="">
+                            <input type="text" placeholder="Enter email">
+                            <button>Submit</button>
+                        </form>
                     </div>
                     <div class="socials">
                         <a class="social-1" href=""> <img src="img/facebook.png" alt=""> </a>
@@ -1107,7 +1113,7 @@
     </footer>
     <footer class="footer__bot">
         <div class="container">
-            <p>©2017 <span>MartPlace. </span>  All rights reserved. Created by <span> AazzTech </span> </p>
+            <p>©2017 <span>MartPlace. </span> All rights reserved. Created by <span> AazzTech </span> </p>
         </div>
     </footer>
 

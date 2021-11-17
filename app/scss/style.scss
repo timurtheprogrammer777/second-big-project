@@ -90,20 +90,24 @@ header{
     }
 }
 .header__input{
-    // border: 1px solid black;
+    // border: 1px solid #d9dfe5;
     display: flex;
     margin-top: -15px;
     border-radius: 15px;
+    
+    form{
+        border: 1px solid #d9dfe5;
+        border-radius: 25px;
+        padding-left:  10px;
+    }
 
     
     // padding: 4px 7px;
     
     input{
          border: none;
-        
          outline: none;
-         
-         
+                
     }
     .input__picture{
         height: 50px;
@@ -180,10 +184,14 @@ header{
     height: 130px;
     align-items: center;
     input{
+        padding-left: 10px;
         margin-left: 40px;
         width: 620px;
         height: 50px;
         border: 1px solid #dcdcdc;
+        position: relative;
+        left: 5px;
+        outline: none;
     }
     button{
     
@@ -191,9 +199,39 @@ header{
       background-color: #fff;
       cursor: pointer;
       border: 2px solid #dcdcdc;
+      
     }
+    
+    
     .categories{
         margin-right: 20px;
+    }
+}
+.input-btn{
+    .categories{
+        padding-left: 10px;
+        padding-right: 45px;
+        
+    }
+    .categories::after{
+        content: '˅';
+        position: relative;
+        left: 20px;
+        transform: rotate(180deg);
+        color: #858585;
+        
+
+    }
+    button+button{
+        background-color: #0674ec;
+        color: #fff;
+        padding: 10px 40px;
+        transition: all .7s;
+        border-radius: 7px;
+        &:hover{
+            background-color: #fff;
+            color:#0674ec ;
+        }
     }
 }
 
@@ -1209,9 +1247,15 @@ header{
     background-color: $white;
     margin-right: 94px;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
+    max-height: 50px;
+    form{
+        // border: 1px solid black;
+        border-radius: 25px;
+        
+    }
     button{
-        padding: 10px 15px;
+        padding: 10px 17px;
         background-color: #0674ec;
         color: $white;
         border:none;
@@ -1222,6 +1266,7 @@ header{
         border: none;
         outline: none;
         padding: 10px 0;
+        border-radius: 25px;
     }
 }
 //footer__top__end
