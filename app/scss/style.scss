@@ -69,6 +69,154 @@ header{
     }
 }
 
+
+
+.header__drop-down{
+    display: none;
+    
+}
+
+
+
+.header__icons:hover .header__drop-down {
+    display: block;
+    position: absolute;
+    margin-top: 60px;
+    background-color: #fff;
+    width: 370px;
+
+}
+
+.drop-dow-top{
+    border-top: 1px solid #0674ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        color: #177ded;
+    }
+}
+
+.drop-down__message{
+    padding: 0 10px;
+    border-bottom: 1px solid #e8ebf0 ;
+    border-top:1px solid #e8ebf0 ;
+    
+}
+.drop-mes-item{
+    padding: 10px 0;
+    display: flex;
+    margin-bottom: 10px;
+    img{
+        margin-right: 5px;
+    }
+    .drop-icon{
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+}
+
+.drop__mes-span{
+    margin: 0 10px;
+}
+.added-mes{
+    color: #999da6;
+    margin-left: 5px;
+}
+.added-shop{
+    color: #0674ec;
+    display: block;
+}
+
+.drop-just{
+    margin-bottom: 15px;
+    color: #747a86;
+}
+
+.drop-down__products{
+    border-top: 1px solid #0674ec;
+    display: none;
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+    a{
+        display: block;
+        margin: 0 30px;
+        // width: 100%;
+        line-height: 40px;
+        color: #828f9d;
+        padding: 0 10px;
+    }
+}
+
+
+.drop-down__products a:hover{
+    background-color: #0674ec;
+    color: #dbeafa;
+    box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+}
+
+.all_products:hover .drop-down__products{
+   
+    display: block;
+    // width: 270px;
+    height: 270px;
+    position: absolute;
+    margin-top: 40px;
+    background-color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header__inner{
     background-color: #fff;
     height: 80px;
